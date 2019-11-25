@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tak75I" name="s3a_SiMeter_Plugin" projectType="audioplug"
+              jucerVersion="5.4.3" pluginFormats="buildStandalone,buildUnity,buildVST3"
+              cppLanguageStandard="17">
+  <MAINGROUP id="arv7rF" name="s3a_SiMeter_Plugin">
+    <GROUP id="{E3643330-136C-1774-1016-4A7E49BC3C3B}" name="S3A_SiMeter">
+      <FILE id="MKv19x" name="ConstructorsAndConfig.cpp" compile="1" resource="0"
+            file="Source/S3A_SiMeter/ConstructorsAndConfig.cpp"/>
+      <FILE id="b8XoBc" name="DSPtools.cpp" compile="1" resource="0" file="Source/S3A_SiMeter/DSPtools.cpp"/>
+      <FILE id="zC0DWn" name="DSPtools.h" compile="0" resource="0" file="Source/S3A_SiMeter/DSPtools.h"/>
+      <FILE id="uvXxNN" name="DWGPnet.cpp" compile="1" resource="0" file="Source/S3A_SiMeter/DWGPnet.cpp"/>
+      <FILE id="YGlCpZ" name="DWGPnet.h" compile="0" resource="0" file="Source/S3A_SiMeter/DWGPnet.h"/>
+      <FILE id="kzMLkA" name="gistDWGPnet.cpp" compile="1" resource="0" file="Source/S3A_SiMeter/gistDWGPnet.cpp"/>
+      <FILE id="MiYtrV" name="gistDWGPnet.h" compile="0" resource="0" file="Source/S3A_SiMeter/gistDWGPnet.h"/>
+      <FILE id="jocxD0" name="hrtfs.h" compile="0" resource="0" file="Source/S3A_SiMeter/hrtfs.h"/>
+      <FILE id="e4Hx4Q" name="InputFunctions.cpp" compile="1" resource="0"
+            file="Source/S3A_SiMeter/InputFunctions.cpp"/>
+      <FILE id="ypTyiZ" name="OutputFunctionsMono.cpp" compile="1" resource="0"
+            file="Source/S3A_SiMeter/OutputFunctionsMono.cpp"/>
+      <FILE id="jTUFmP" name="OutputFunctionsStereo.cpp" compile="1" resource="0"
+            file="Source/S3A_SiMeter/OutputFunctionsStereo.cpp"/>
+      <FILE id="bvUcwv" name="S3A_SiMeter.h" compile="0" resource="0" file="Source/S3A_SiMeter/S3A_SiMeter.h"/>
+      <FILE id="CQLChV" name="StateFunctions.cpp" compile="1" resource="0"
+            file="Source/S3A_SiMeter/StateFunctions.cpp"/>
+    </GROUP>
+    <GROUP id="{AEB5D40F-87AB-A038-B262-8A621EDA56CE}" name="Source">
+      <GROUP id="{CA8B392D-3774-0AA7-EAE1-ADD2BDE5BE86}" name="EditedGistSourceCode">
+        <GROUP id="{D53684D8-478C-E57C-56BE-48FF8EA87B35}" name="core">
+          <FILE id="b8F8pY" name="CoreFrequencyDomainFeatures.cpp" compile="1"
+                resource="0" file="Source/EditedGistSourceCode/core/CoreFrequencyDomainFeatures.cpp"/>
+          <FILE id="L312nu" name="CoreFrequencyDomainFeatures.h" compile="0"
+                resource="0" file="Source/EditedGistSourceCode/core/CoreFrequencyDomainFeatures.h"/>
+          <FILE id="hUq62x" name="CoreTimeDomainFeatures.cpp" compile="1" resource="0"
+                file="Source/EditedGistSourceCode/core/CoreTimeDomainFeatures.cpp"/>
+          <FILE id="xi95gs" name="CoreTimeDomainFeatures.h" compile="0" resource="0"
+                file="Source/EditedGistSourceCode/core/CoreTimeDomainFeatures.h"/>
+        </GROUP>
+        <GROUP id="{B67A48D2-0174-CE91-F450-5D3F0A4C09FD}" name="fft">
+          <FILE id="xcXXFX" name="_kiss_fft_guts.h" compile="0" resource="0"
+                file="Source/EditedGistSourceCode/fft/_kiss_fft_guts.h"/>
+          <FILE id="KTRPix" name="kiss_fft.c" compile="1" resource="0" file="Source/EditedGistSourceCode/fft/kiss_fft.c"/>
+          <FILE id="RoyRWR" name="kiss_fft.h" compile="0" resource="0" file="Source/EditedGistSourceCode/fft/kiss_fft.h"/>
+          <FILE id="AcMfk9" name="kissfft.hh" compile="0" resource="0" file="Source/EditedGistSourceCode/fft/kissfft.hh"/>
+          <FILE id="LNyR7t" name="WindowFunctions.cpp" compile="1" resource="0"
+                file="Source/EditedGistSourceCode/fft/WindowFunctions.cpp"/>
+          <FILE id="GfSAf1" name="WindowFunctions.h" compile="0" resource="0"
+                file="Source/EditedGistSourceCode/fft/WindowFunctions.h"/>
+        </GROUP>
+        <GROUP id="{979B2C73-50FC-4A63-9C65-C52C42BEF12C}" name="mfcc">
+          <FILE id="Dh5EmY" name="MFCC.cpp" compile="1" resource="0" file="Source/EditedGistSourceCode/mfcc/MFCC.cpp"/>
+          <FILE id="HTOr5D" name="MFCC.h" compile="0" resource="0" file="Source/EditedGistSourceCode/mfcc/MFCC.h"/>
+        </GROUP>
+        <GROUP id="{2D8B2FCD-E2A7-7278-C0DE-31DA411C2930}" name="onset-detection-functions">
+          <FILE id="KXusbS" name="OnsetDetectionFunction.cpp" compile="1" resource="0"
+                file="Source/EditedGistSourceCode/onset-detection-functions/OnsetDetectionFunction.cpp"/>
+          <FILE id="NWjRG8" name="OnsetDetectionFunction.h" compile="0" resource="0"
+                file="Source/EditedGistSourceCode/onset-detection-functions/OnsetDetectionFunction.h"/>
+        </GROUP>
+        <GROUP id="{1A5482F6-B920-63A7-1C24-3D46D6B47733}" name="pitch">
+          <FILE id="PJU6tR" name="Yin.cpp" compile="1" resource="0" file="Source/EditedGistSourceCode/pitch/Yin.cpp"/>
+          <FILE id="bsTSlh" name="Yin.h" compile="0" resource="0" file="Source/EditedGistSourceCode/pitch/Yin.h"/>
+        </GROUP>
+        <FILE id="FeYDa0" name="Gist.cpp" compile="1" resource="0" file="Source/EditedGistSourceCode/Gist.cpp"/>
+        <FILE id="UlwDP1" name="Gist.h" compile="0" resource="0" file="Source/EditedGistSourceCode/Gist.h"/>
+      </GROUP>
+      <FILE id="WaK5p3" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="bBb1pp" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="vr3KoM" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="hpZSzb" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../juce-5.4.3-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>

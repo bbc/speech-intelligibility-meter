@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "s3a_SiMeter_Plugin - Standalone Plugin", "s3a_SiMeter_Plugin_StandalonePlugin.vcxproj", "{9E3EDF7D-697A-7C5E-777D-A82CB76EDF5E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44} = {E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "s3a_SiMeter_Plugin - VST3", "s3a_SiMeter_Plugin_VST3.vcxproj", "{DD267F17-7C55-340E-D0E3-E098FAABB70E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44} = {E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "s3a_SiMeter_Plugin - Unity Plugin", "s3a_SiMeter_Plugin_UnityPlugin.vcxproj", "{7788E48D-5B01-0209-D406-933D4052A61B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44} = {E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "s3a_SiMeter_Plugin - Shared Code", "s3a_SiMeter_Plugin_SharedCode.vcxproj", "{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD267F17-7C55-340E-D0E3-E098FAABB70E}.Debug|x64.ActiveCfg = Debug|x64
+		{DD267F17-7C55-340E-D0E3-E098FAABB70E}.Debug|x64.Build.0 = Debug|x64
+		{DD267F17-7C55-340E-D0E3-E098FAABB70E}.Release|x64.ActiveCfg = Release|x64
+		{DD267F17-7C55-340E-D0E3-E098FAABB70E}.Release|x64.Build.0 = Release|x64
+		{9E3EDF7D-697A-7C5E-777D-A82CB76EDF5E}.Debug|x64.ActiveCfg = Debug|x64
+		{9E3EDF7D-697A-7C5E-777D-A82CB76EDF5E}.Debug|x64.Build.0 = Debug|x64
+		{9E3EDF7D-697A-7C5E-777D-A82CB76EDF5E}.Release|x64.ActiveCfg = Release|x64
+		{9E3EDF7D-697A-7C5E-777D-A82CB76EDF5E}.Release|x64.Build.0 = Release|x64
+		{7788E48D-5B01-0209-D406-933D4052A61B}.Debug|x64.ActiveCfg = Debug|x64
+		{7788E48D-5B01-0209-D406-933D4052A61B}.Debug|x64.Build.0 = Debug|x64
+		{7788E48D-5B01-0209-D406-933D4052A61B}.Release|x64.ActiveCfg = Release|x64
+		{7788E48D-5B01-0209-D406-933D4052A61B}.Release|x64.Build.0 = Release|x64
+		{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}.Debug|x64.ActiveCfg = Debug|x64
+		{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}.Debug|x64.Build.0 = Debug|x64
+		{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}.Release|x64.ActiveCfg = Release|x64
+		{E8D465CA-D2BA-33C3-3C3D-E33D44BE8E44}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

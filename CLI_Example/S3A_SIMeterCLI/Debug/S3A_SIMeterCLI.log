@@ -1,0 +1,5 @@
+﻿  S3A_SIMeterCLI.cpp
+d:\gitprojects\cpp\s3a_simeter_plugin\source\s3a_simeter\hrtfs.h(17): warning C4091: 'static ': ignored on left of 'HRTFs' when no variable is declared
+d:\gitprojects\cpp\s3a_simeter_plugin\cli_example\s3a_simetercli\s3a_simetercli.cpp(44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\gitprojects\cpp\s3a_simeter_plugin\cli_example\s3a_simetercli\s3a_simetercli.cpp(48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  S3A_SIMeterCLI.vcxproj -> D:\GitProjects\CPP\s3a_SiMeter_Plugin\CLI_Example\Debug\S3A_SIMeterCLI.exe

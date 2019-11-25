@@ -1,0 +1,5 @@
+﻿  include_juce_audio_plugin_client_VST3.cpp
+     Creating library D:\GitProjects\CPP\s3a_SiMeter_Plugin\Builds\VisualStudio2017\x64\Release\VST3\s3a_SiMeter_Plugin.lib and object D:\GitProjects\CPP\s3a_SiMeter_Plugin\Builds\VisualStudio2017\x64\Release\VST3\s3a_SiMeter_Plugin.exp
+  Generating code
+  Finished generating code
+  s3a_SiMeter_Plugin_VST3.vcxproj -> D:\GitProjects\CPP\s3a_SiMeter_Plugin\Builds\VisualStudio2017\x64\Release\VST3\s3a_SiMeter_Plugin.vst3
